@@ -3,57 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms Practice - HTML 5</title>
-    <style>
-        label{
-            display: inline;
-            margin-right: 10px;
-        }
-        *{
-            margin-top: 10px;
-        }
-    </style>
-
+    <title>HTML 5 PRACTICE</title>
+    <link rel="stylesheet" href="style-form.css">
 </head>
 <body>
-    <header>
-    <h1 style="text-align: center;">Practice Forms with HTML 5</h2><hr>
-        <h2>Fill The Form:</h2>
+    <header class="head">
+        <h1>Using HTML-5</h1>
+        <nav>
+            <a href="#" target="_blank">Home</a>
+            <a href="#" target="_blank">Order</a>
+            <a href="#" target="_blank">About</a>
+            <a href="#" target="_blank">Contact</a>
+        </nav>
     </header>
-        <form>
-            <label for="your name">Your Name:
-                <input type="text" placeholder="Your Name">
-            </label>
-            <label for="father's name">Fathers Name:
-                <input type="text" placeholder="Fathers Name">
-            </label>
-            <label for="institiute name">Ex. Institiute Name:
-                <input type="text" placeholder="Ex. Institiute Name">
-            </label>
-            <fieldset style="width: 200px;">
-                <legend>Select Your Result</legend>
-                <input type="radio" name="result" id="A+">A+                
-                <input type="radio" name="result" id="A">A                
-                <input type="radio" name="result" id="B">B                
-                <input type="radio" name="result" id="C">C                
-                <input type="radio" name="result" id="D">D                
-            </fieldset>
-            </label>
+    <main>
+        <article>
+            <header>
+                <h2>What am I doing?</h2>
+                <p>Hi! I am Md Aminur Rahman. I am studying in Akij Engineering Institute. Recently I started to develop My self as a Web developer. I am doing a course with <a href="https://web.programming-hero.com/" target="_blank">programming-hero</a> by Jhankar Mahbub (hablu). It is very difficult for me to stay focused as i have a long break from studying and development activities. But I'm trying my best. It's <time datetime="1:57">1:57 AM</time> and I'm still coding. <br> <b>
+                Whatever, I have learned a lot of things from the course and still learning. The topics I learned are shown below. </b> </p>
+            </header>
+        </article>
+                <hr>
+                <hr>
+        <div>
+            <header><h2>My Latest Tour On Mountain</h2>
+            <article>
+                <img width="400px" src="assets/media/photos/mountain.jpg" alt="mountain">
+                <figcaption>Enjoying cloudy sky View from the top of a mountain</figcaption>
+            </header>
+            <header> 
+                <h3>Trip Planning</h3>
+            </header>
+            <section>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repellendus odio velit culpa aliquam. Officiis voluptatem expedita veritatis quas at! Doloremque explicabo deserunt aliquam iure maxime in inventore tempore dolores Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi voluptatum consectetur asperiores, ducimus excepturi provident rerum voluptate pariatur itaque nostrum expedita iste similique quas, quam repellat cum dolore, nihil ratione.</p>
+            </section>
+            <footer>
+                <p>
+                    Tags: <a href="#">Mountain</a>
+                     <a href="#">Cloud</a>
+                     <a href="#">Sky</a>
+                     <a href="#">Traveling</a>
+                </p>
+            </footer>
+            </article>
+            <hr><hr>
+        </div>
+       
+            <form>
+                <h2>Please fill the form below: </h2>
+                <header>
+                <label for="Name">Your Name: <input type="text" name="name" id="name" placeholder="Your Name"></label>
+                <label class="block" for="Email">Your Email: <input type="email" name="email" id="email" placeholder="Your Email"></label>
+                <label class="block" for="Phone Number">Your Number: <input type="text" name="number" placeholder="Your Number"></label>
+                </header>
+                <fieldset>
+                    <legend>Whom do want to take?</legend>
+                   <label for="father"></label> <input type="radio" name="parents" id="father"> Father</label>
+                    <label for="mother"><input type="radio" name="parents" id="mother">Mother</label>
+                    <label for="mother"><input type="radio" name="parents" id="sister">Sister</label>
+                    <label for="mother"><input type="radio" name="parents" id="Brother">Brother</label>
+                    <label for="mother"><input type="radio" name="parents" id="none">No one</label>
+                </fieldset>
+                <fieldset>
+                    <legend style="width: 250px;">Which places you have visited before:</legend>
+                    <label for="places"><input type="checkbox" name="Sundarban" id="">Sundaran</label>
+                    <label for="places"><input type="checkbox" name="Sundarban" id="">Saintartin</label>
+                    <label for="places"><input type="checkbox" name="Sundarban" id="">Kuakata</label>
+                    <label for="places"><input type="checkbox" name="Sundarban" id="">Sundaran</label>
+                    <label for="places">Sunad<input type="checkbox" name="Sundarban" id="">Saintartin</label>
+                    <label for="places"></label><input type="checkbox" name="Sundarban" id="">Cox'sazar</label>
+                    <label for="places"></label><input type="checkbox" name="Sundarban" id="">Kuakata <label for="places"></label><input type="checkbox" name="Sundarban" id="">Sundaran</label>
+                    <label for="places"></label><input type="checkbox" name="Sundarban" id="">Saintartin</label>
+                    <label for="places"></label><input type="checkbox" name="Sundarban" id="">Cox'sazar</label>
+                    <label for="places"></label><input type="checkbox" name="Sundarban" id="">Kuakata </label>
+                </fieldset>
+                <label for="photos">Upload Some Photos: <input type="file" name="upload" id="upload"></label>
+                <fieldset>
+                    <legend>Enter Your Experiences</legend><textarea name="" id="" placeholder="Enter Your Experiences"></textarea>
+                </fieldset>
 
-           
-            <fieldset style="width: 350px;">
-                <legend>Select Your Hobbies</legend>
-                <input type="checkbox" name="hobbies" id="reading">Reading
-                <input type="checkbox" name="hobbies" id="writing">Writing
-                <input type="checkbox" name="hobbies" id="smimming">Swimming
-                <input type="checkbox" name="hobbies" id="gardening">Gardening
-            </fieldset>
-        </form>
-
-        <hr style="margin-top: 20px;">
-        <footer style="text-align: center;">
-            <small> &copy; All Rights Reserved</small>
-        </footer>
-
+                <p>
+                <input type="reset"></label>
+            <input type="submit"></label>
+                </p>
+        
+    </main>
+    <footer class="footer-last">
+        <small>&copy; 2024. All Rights Reserved</small>
+    </footer>
 </body>
 </html>

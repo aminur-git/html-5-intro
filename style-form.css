@@ -1,0 +1,44 @@
+.head{
+    text-align: center;
+    background-image: url(assets/media/photos/mountain.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding-top: 10px;
+    color: blue;
+    
+}
+
+
+.footer-last{
+    text-align: center;
+    margin-top: 30px;
+}
+
+nav a{
+    margin-right: 20px;
+    border: 2px solid black;
+    padding: 5px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px 0px;
+
+}
+
+p{
+    text-align: justify;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+}
+
+fieldset{
+    margin-top: 10px;
+    width: 200px;
+    
+}
+
+    
