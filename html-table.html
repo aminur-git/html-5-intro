@@ -1,67 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Table</title>
+    <link rel="stylesheet" href="styles/nav.css">
     <style>
-        td,th{
+        td,
+        th {
             border: 1px solid black;
             padding: 5px 10px;
         }
-        table{
+
+        table {
             border-collapse: collapse;
-            
+
         }
     </style>
 </head>
+
 <body>
-    <h1>HTML Table</h1>
-    <table>
-        <caption>Employee Salary Table</caption>
-        <thead>
-            <tr>
-                <th>No.</th>
-                <th>Name</th>
-                <th>Company</th>
-                <th>Salary</th>
-            </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>Bill Gates</td>
-            <td>Microsoft</td>
-            <td>1000$</td>
-        </tr>
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="html-table.html">Home</a></li>
+                    <li><a href="video.html">Video</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="html-5-forms.html">Forms</a></li>
+                    <li><a href="pitha.html">Pitha</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>HTML Table</h1>
+        <table>
+            <caption>Employee Salary Table</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>1000$</td>
+                </tr>
 
-        <tr>
-            <td>2</td>
-            <td>Steve Jobs</td>
-            <td>Apple</td>
-            <td>1200$</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Mark Juck</td>
-            <td>Facebook</td>
-            <td>1300$</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Aminur</td>
-            <td>Nothing</td>
-            <td>0000$</td>
-        </tr>
-        </tbody>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>1200$</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mark Juck</td>
+                    <td>Facebook</td>
+                    <td>1300$</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Aminur</td>
+                    <td>Nothing</td>
+                    <td>0000$</td>
+                </tr>
+            </tbody>
 
-        <tfoot>
+            <tfoot>
                 <tr>
                     <td colspan="4">Total employee = 4</td>
                 </tr>
-        </tfoot>
+            </tfoot>
 
-    </table>
+        </table>
+    </main>
     <ul>
         <li>table : table</li>
         <li>table head : thead</li>
@@ -73,4 +91,5 @@
         <li>Caption</li>
     </ul>
 </body>
+
 </html>
