@@ -1,0 +1,15 @@
+label{
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.submit{
+    padding: 5px 100px;
+    border-radius: 10px;
+    background-color: rgb(17, 139, 72);
+    color: aliceblue;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
